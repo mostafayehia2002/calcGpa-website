@@ -155,12 +155,16 @@ icon.onclick = function () {
     document.styleSheets[1].cssRules[0].style.setProperty("--background-color", "rgb(68, 67, 68)");
     table.style.color = "white";
     console.log(document.styleSheets[1].cssRules);
+        document.body.style.backgroundColor = "black";
+
 
   }
   else {
     icon.setAttribute("class", "fas fa-moon");
     document.styleSheets[1].cssRules[0].style.setProperty("--background-color", "rgb(238, 238, 238)");
     table.style.color = "black";
+        document.body.style.backgroundColor = "white";
+
 
 
   }

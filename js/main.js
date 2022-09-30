@@ -177,7 +177,7 @@ window.onload = () => {
   let time = setTimeout(function () {
     section1.style.display = "none";
     document.body.style.overflow = "auto";
-  }, 3000)
+  }, 2000)
 }
 /**********************************************************/
 window.onscroll = () => {

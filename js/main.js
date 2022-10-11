@@ -26,8 +26,8 @@ btn.onclick = function () {
     option = `
         <option >D</option>
         <option >D+</option>
-        <option >c</option>
-        <option >c+</option>
+        <option >C</option>
+        <option >C+</option>
         <option >B</option>
         <option >B+</option>
         <option >A</option>

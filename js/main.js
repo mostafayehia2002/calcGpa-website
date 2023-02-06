@@ -21,6 +21,9 @@ if (window.localStorage.getItem("التراكمي")) {
 btn.onclick = function () {
   for (let i = 0; i < number.value; i++) {
     div = document.createElement("div");
+  let count=document.createElement("span");
+  let countText=document.createTextNode(`${i+1}`);
+   count.appendChild(countText);
     div.setAttribute("class", "div");
     select = document.createElement("select");
     option = `
@@ -34,13 +37,16 @@ btn.onclick = function () {
         <option >A+</option>
         
         `;
+      
     hours = `
       <input type="number" class="Hours" value="3" min="3" max="6">
        `;
     select.innerHTML = option;
+    
     div.innerHTML = hours;
+    div.appendChild(count);
     div.appendChild(select);
-
+    
     section2.appendChild(div);
     section2.appendChild(controls);
     section2.appendChild(table);

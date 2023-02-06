@@ -115,7 +115,11 @@ a {
     left: 25%;
 
 }
-
+.section2 div span {
+    color: #1fa495;
+    font-size: 20px;
+    font-weight: bold;
+}
 /* start navbar */
 .navbar {
     height: 50px;

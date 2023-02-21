@@ -101,7 +101,7 @@ function calcSum() {
     sumOfHour += parseInt(hour[x]);
   }
   console.log(sum / sumOfHour);
-  td[0].innerHTML = (sum / sumOfHour).toFixed(3);
+  td[0].innerHTML = (sum / sumOfHour).toFixed(2);
   td[1].innerHTML = (sumOfHour);
 
   window.localStorage.setItem("التراكمي", td[0].textContent);

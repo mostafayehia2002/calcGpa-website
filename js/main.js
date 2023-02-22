@@ -35,6 +35,7 @@ btn.onclick = function () {
         <option >B+</option>
         <option >A</option>
         <option >A+</option>
+        <option >F</option>
         
         `;
       
@@ -96,7 +97,11 @@ function calcSum() {
 
       case "D":
         sum += 2 * parseInt(hour[x]);
-        break;
+       break;
+       case "F":
+        sum += 0 * parseInt(hour[x]);
+       break;
+
     }
     sumOfHour += parseInt(hour[x]);
   }

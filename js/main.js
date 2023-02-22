@@ -27,6 +27,7 @@ btn.onclick = function () {
     div.setAttribute("class", "div");
     select = document.createElement("select");
     option = `
+       <option >F</option>
         <option >D</option>
         <option >D+</option>
         <option >C</option>
@@ -35,7 +36,7 @@ btn.onclick = function () {
         <option >B+</option>
         <option >A</option>
         <option >A+</option>
-        <option >F</option>
+      
         
         `;
       

@@ -1,99 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>calc_Gpa</title>
-    <link rel="icon" href="" />
-    <link href="css/all.min.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
-  </head>
-  <body>
-    <section class="section1">
-      <div class="loading">
-        <p></p>
-      </div>
-      <div class="icons">
-        <figure>
-          <img
-            src="photo/SAVE_20220308_201233.jpg"
-            alt=""
-            height="100px"
-            width="100px"
-          />
-          <figcaption><h3>made by:Eng mostafa yehia</h3></figcaption>
-        </figure>
-
-        <div class="social">
-          <a
-            href="https://www.facebook.com/mostafa.gad.9085"
-            target="_blank"
-            title="go to facebook"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-
-          <a
-            href="https://wa.me/+201226717838"
-            target="_blank"
-            title="go to whatsApp"
-            ><i class="fa-brands fa-whatsapp"></i
-          ></a>
-
-          <a
-            href="https://www.linkedin.com/in/mostafa-yehia-84456a235 "
-            target="_blank"
-            title="go to linkedin"
-            ><i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="tel:+201226717838" target="_blank" title="call me"
-            ><i class="fa-solid fa-phone"></i>
-          </a>
-          <a
-            href="mailto:gad993813@gmail.com"
-            target="_blank"
-            title="go to gmail"
-            ><i class="far fa-envelope"></i>
-          </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>حساب المعدل التراكمي</title>
+        <link rel="icon" href="">
+        <link href="css/all.min.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="section1">
+            <div class="loading">
+                <p></p>
+            </div>
+            <div class="icons">
+                <figure>
+                    <img
+                        src="photo/SAVE_20220308_201233.jpg"
+                        alt=""
+                        height="100px"
+                        width="100px"
+                    >
+                    <figcaption>
+                        <h2>
+                            made by
+                            <strong>Eng:Mostafa Yehia</strong>
+                        </h2>
+                    </figcaption>
+                </figure>
+                <div class="social">
+                    <a href="https://www.facebook.com/mostafa.gad.9085" target="_blank" title="go to facebook">
+                        <i class="fa-brands fa-facebook-f">
+                        </i
+          >
+                    </a>
+                    <a href="https://wa.me/+201226717838" target="_blank" title="go to whatsApp">
+                        <i class="fa-brands fa-whatsapp">
+                        </i
+          >
+                    </a>
+                    <a href="https://www.linkedin.com/in/mostafa-yehia-84456a235 " target="_blank" title="go to linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="tel:+201226717838" target="_blank" title="call me">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="mailto:gad993813@gmail.com" target="_blank" title="go to gmail">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="navbar">
+                <i class="fas fa-moon" id="icon"></i>
+            </div>
+            <div class="user-data">
+                <input
+                    type="number"
+                    class="input1"
+                    min="1"
+                    max="80"
+                    placeholder="ادخل عدد المواد"
+                >
+                <button id="btn-start">ابدا</button>
+            </div>
+            <div class="controls">
+                <button id="result">عرض النتيجة</button>
+                <button id="print">طباعة</button>
+                <button id="clear">حذف البيانات</button>
+            </div>
+            <div class="ss">
+                <p>عدد الساعات</p>
+                <p>تقدير الماده</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>التراكمي</td>
+                        <td>عدد الساعات</td>
+                        <td>التقدير العام</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td"></td>
+                        <td class="td"></td>
+                        <td class="td"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="return">
+            <i class="fa-solid fa-angles-up"></i>
         </div>
-      </div>
-    </section>
-
-    <section class="section2">
-      <div class="navbar">
-        <i class="fas fa-moon" id="icon"></i>
-      </div>
-      <div class="user-data">
-        <input type="number" class="input1"  min="1" max="80"  placeholder="ادخل عدد المواد"/>
-        <button id="btn-start">start</button>
-      </div>
-      <div class="controls">
-        <button id="result">show result</button>
-        <button id="print">print pdf</button>
-        <button id="clear">clear data</button>
-      </div>
-      <div class="ss">
-        <p>عدد الساعات</p>
-        <p>تقدير الماده</p>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <td>التراكمي</td>
-            <td>عدد الساعات</td>
-            <td>التقدير العام</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="td"></td>
-            <td class="td"></td>
-            <td class="td"></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <div class="return"><i class="fa-solid fa-angles-up"></i></div>
-    <script src="js/main.js"></script>
-  </body>
+        <script src="js/main.js"></script>
+    </body>
 </html>

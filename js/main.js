@@ -27,7 +27,7 @@ btn.onclick = function () {
     div.setAttribute("class", "div");
     select = document.createElement("select");
     option = `
-       <option >F</option>
+        <option >F</option>
         <option >D</option>
         <option >D+</option>
         <option >C</option>
